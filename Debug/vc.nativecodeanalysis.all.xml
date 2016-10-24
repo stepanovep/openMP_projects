@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\captain-nemo\documents\visual studio 2015\projects\openmp_win32\matxixvectormult\</FILEPATH>
+      <FILENAME>matxixvectormult.cpp</FILENAME>
+      <LINE>55</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Переполнение буфера при записи в "m":  доступный для записи объем равен "size*4" байт, однако записать можно только "8" байт.</DESCRIPTION>
+    <FUNCTION>Matrix::{ctor}</FUNCTION>
+    <DECORATED>??0Matrix@@QAE@H@Z</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\captain-nemo\documents\visual studio 2015\projects\openmp_win32\matxixvectormult\</FILEPATH>
+        <FILENAME>matxixvectormult.cpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\captain-nemo\documents\visual studio 2015\projects\openmp_win32\matxixvectormult\</FILEPATH>
+        <FILENAME>matxixvectormult.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\captain-nemo\documents\visual studio 2015\projects\openmp_win32\matxixvectormult\</FILEPATH>
+        <FILENAME>matxixvectormult.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\captain-nemo\documents\visual studio 2015\projects\openmp_win32\matxixvectormult\</FILEPATH>
+        <FILENAME>matxixvectormult.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\captain-nemo\documents\visual studio 2015\projects\openmp_win32\matxixvectormult\</FILEPATH>
+        <FILENAME>matxixvectormult.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"i" может быть равно 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\captain-nemo\documents\visual studio 2015\projects\openmp_win32\matxixvectormult\</FILEPATH>
+        <FILENAME>matxixvectormult.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Недопустимая операция записи в "m[1]" (доступный для записи диапазон: от 0 до 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\captain-nemo\documents\visual studio 2015\projects\openmp_win32\matxixvectormult\</FILEPATH>
+      <FILENAME>matxixvectormult.cpp</FILENAME>
+      <LINE>199</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6993</DEFECTCODE>
+    <DESCRIPTION>При анализе кода структуры OpenMP игнорируются; анализируется код одного потока.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
